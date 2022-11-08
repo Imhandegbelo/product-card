@@ -1,7 +1,5 @@
 /* Google fonts */
-@import url(https://fonts.google.com/specimen/Montserrat);
-@import url(https://fonts.google.com/specimen/Fraunces);
-
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
 
 html,
 body {
@@ -17,7 +15,6 @@ body {
   margin: 100px auto;
 }
 .image-holder {
-  background-color: #e38826;
   padding: 30px;
   width: 50%;
   background-image: url(./images/image-product-desktop.jpg);
@@ -32,37 +29,50 @@ body {
   border-bottom-right-radius: 7px;
   padding: 30px;
 }
-.muted-header{
+.muted-header {
+  font-family: "Montserrat";
   color: hsl(228, 12%, 48%);
   font-size: 14px;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-.header{
-  font-family: 'Montserrat';
-  font-weight: 700;
+.header {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 700 !important;
   line-height: 1;
 }
 p {
   font-size: 14px;
   color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
-span{
+span {
   color: #3c8067;
-  font-family: 'Montserrat';
+  font-family: "Fraunces";
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
   margin: 20px 0px;
+  padding-right: 10px;
 }
-small{
+.former-price {
   color: hsl(228, 12%, 48%);
+  font-style: normal;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  margin-top: -30px;
+  text-decoration: line-through;
+  font-size: 12px;
 }
-button{
+button {
   background-color: #3c8067;
+  font-family: 'Montserrat';
   padding: 15px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
   color: #ffffff;
   font-weight: 700;
   border: none;
@@ -72,11 +82,12 @@ button{
   justify-content: center;
 }
 button:hover {
-  background-color: #3c8067;
+  background-color: #1e5742;
 }
 button img {
   background-color: inherit;
   text-align: unset;
+  margin-right: 5px;
 }
 
 /* Footer */
