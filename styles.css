@@ -39,7 +39,7 @@ body {
   letter-spacing: 3px;
 }
 .header {
-  font-family: 'Fraunces';
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 700 !important;
   line-height: 1;
@@ -62,7 +62,7 @@ span {
 .former-price {
   color: hsl(228, 12%, 48%);
   font-style: normal;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 400;
   margin-top: -30px;
   text-decoration: line-through;
@@ -72,7 +72,7 @@ span {
 }
 button {
   background-color: #3c8067;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   padding: 15px;
@@ -104,8 +104,8 @@ button img {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 375px){
-  body{
+@media (max-width: 375px) {
+  body {
     width: 370px;
     padding-right: 10px;
     align-items: center;
@@ -127,7 +127,7 @@ button img {
     background-position: center;
     width: 80%;
     min-height: 40% !important;
-    border-radius: 7px 7px 0px 0px ;
+    border-radius: 7px 7px 0px 0px;
     display: flex;
   }
   .description {
@@ -144,15 +144,9 @@ button img {
     position: relative;
     font-size: 11px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
     top: 30px;
+    margin-top: 20px;
   }
 }
-@-moz-document{
-  .attribution{
-    display: block;
-    position: absolute;
-    top: 700px;
-    position: -ms-page;
-  }
-}
+
