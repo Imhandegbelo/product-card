@@ -150,6 +150,9 @@ button img {
 }
 @-moz-document{
   .attribution{
-    margin-top: -20px;
+    display: block;
+    position: absolute;
+    top: 700px;
+    position: -ms-page;
   }
 }
